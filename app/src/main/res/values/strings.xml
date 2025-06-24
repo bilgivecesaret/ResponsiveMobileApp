@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ResponsiveMobileApp</string>
+    <string name="intro_title">Welcome\nTo Smart Photo App</string>
+    <string name="intro_subtitle">Download all the available on the App</string>
+</resources>
