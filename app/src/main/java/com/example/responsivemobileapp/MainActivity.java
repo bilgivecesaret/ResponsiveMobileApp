@@ -1,6 +1,8 @@
 package com.example.responsivemobileapp;
 
 import android.os.Bundle;
+import android.content.Intent;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,9 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        TextView startButton = findViewById(R.id.startBtn);
+        startButton.setOnClickListener(v ->
+                startActivity(new Intent(MainActivity.this, LoginActivity.class)));
     }
 }
