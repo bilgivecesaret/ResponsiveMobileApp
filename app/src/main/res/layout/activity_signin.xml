@@ -19,8 +19,8 @@
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="32dp"
-                android:text="Create\nAccount"
+                android:layout_marginTop="28dp"
+                android:text="Create Account"
                 android:textColor="@color/black"
                 android:textSize="30sp"
                 android:textStyle="bold" />
@@ -37,11 +37,11 @@
             <EditText
                 android:id="@+id/nameEdt"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="48dp"
                 android:ems="10"
                 android:padding="12dp"
                 android:layout_marginTop="12dp"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:background="@drawable/edittext_bg"
                 android:inputType="text"
                 android:hint="Enter Your Name" />
@@ -59,11 +59,11 @@
             <EditText
                 android:id="@+id/emailEdt"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="48dp"
                 android:ems="10"
                 android:padding="12dp"
                 android:layout_marginTop="12dp"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:background="@drawable/edittext_bg"
                 android:inputType="text"
                 android:hint="Enter Your Email" />
@@ -80,11 +80,11 @@
             <EditText
                 android:id="@+id/passEdt"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="48dp"
                 android:ems="10"
                 android:padding="12dp"
                 android:layout_marginTop="12dp"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:background="@drawable/edittext_bg"
                 android:inputType="textPassword"
                 android:hint="Enter Your Password" />
@@ -101,11 +101,11 @@
             <EditText
                 android:id="@+id/RePassEdt"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="48dp"
                 android:ems="10"
                 android:padding="12dp"
                 android:layout_marginTop="12dp"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:background="@drawable/edittext_bg"
                 android:inputType="textPassword"
                 android:hint="Repeat Your Password" />
@@ -135,7 +135,7 @@
             android:id="@+id/imageView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="-32dp"
+            android:layout_marginBottom="-130dp"
             android:scaleType="centerCrop"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
